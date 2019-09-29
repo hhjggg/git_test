@@ -586,31 +586,3 @@ Fast-forward：快速合并，不会产生新的commit id，只是利用合并�
 
 
 
-删除brh分支
-
-合并到master后，brh分支就没用了，可以删除
-
-git branch -d brh
-
-Deleted branch brh (was 0927e7d).
-
-
-
-提交master分支
-
-git push origin master
-
-
-
-删除github上的brh分支
-
-git push origin —delete brh
-
-To https://github.com/ietown/mypro_remote.git
-
- - [deleted]         brh
-
-去github上看看，已经没有brh分支了
-————————————————
-版权声明：本文为CSDN博主「车前猛跑」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/cin_ie/article/details/51168449
